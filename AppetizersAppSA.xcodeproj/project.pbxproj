@@ -18,6 +18,7 @@
 		743BC8892A1403FF0068C0AA /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8882A1403FF0068C0AA /* AppetizerListCell.swift */; };
 		743BC88B2A14069C0068C0AA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC88A2A14069C0068C0AA /* NetworkManager.swift */; };
 		743BC88D2A1407B90068C0AA /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC88C2A1407B90068C0AA /* APError.swift */; };
+		743BC88F2A140EE80068C0AA /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC88E2A140EE80068C0AA /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		743BC8882A1403FF0068C0AA /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		743BC88A2A14069C0068C0AA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		743BC88C2A1407B90068C0AA /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		743BC88E2A140EE80068C0AA /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				743BC8722A13E4EA0068C0AA /* AppetizersAppSAApp.swift */,
 				743BC8742A13E4EA0068C0AA /* AppetizerTabView.swift */,
 				743BC8802A13E6270068C0AA /* AppetizerListView.swift */,
+				743BC88E2A140EE80068C0AA /* AppetizerListViewModel.swift */,
 				743BC8882A1403FF0068C0AA /* AppetizerListCell.swift */,
 				743BC8822A13E6320068C0AA /* AccountView.swift */,
 				743BC8842A13E6450068C0AA /* OrderView.swift */,
@@ -165,6 +168,7 @@
 				743BC8752A13E4EA0068C0AA /* AppetizerTabView.swift in Sources */,
 				743BC88B2A14069C0068C0AA /* NetworkManager.swift in Sources */,
 				743BC8732A13E4EA0068C0AA /* AppetizersAppSAApp.swift in Sources */,
+				743BC88F2A140EE80068C0AA /* AppetizerListViewModel.swift in Sources */,
 				743BC8812A13E6270068C0AA /* AppetizerListView.swift in Sources */,
 				743BC8852A13E6450068C0AA /* OrderView.swift in Sources */,
 			);
