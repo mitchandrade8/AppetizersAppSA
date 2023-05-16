@@ -19,6 +19,7 @@
 		743BC88B2A14069C0068C0AA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC88A2A14069C0068C0AA /* NetworkManager.swift */; };
 		743BC88D2A1407B90068C0AA /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC88C2A1407B90068C0AA /* APError.swift */; };
 		743BC88F2A140EE80068C0AA /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC88E2A140EE80068C0AA /* AppetizerListViewModel.swift */; };
+		743BC8912A141C020068C0AA /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8902A141C020068C0AA /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		743BC88A2A14069C0068C0AA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		743BC88C2A1407B90068C0AA /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		743BC88E2A140EE80068C0AA /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		743BC8902A141C020068C0AA /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				743BC8862A13FDA40068C0AA /* Appetizer.swift */,
 				743BC88A2A14069C0068C0AA /* NetworkManager.swift */,
 				743BC88C2A1407B90068C0AA /* APError.swift */,
+				743BC8902A141C020068C0AA /* Alert.swift */,
 				743BC8762A13E4EC0068C0AA /* Assets.xcassets */,
 				743BC8782A13E4EC0068C0AA /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				743BC88B2A14069C0068C0AA /* NetworkManager.swift in Sources */,
 				743BC8732A13E4EA0068C0AA /* AppetizersAppSAApp.swift in Sources */,
 				743BC88F2A140EE80068C0AA /* AppetizerListViewModel.swift in Sources */,
+				743BC8912A141C020068C0AA /* Alert.swift in Sources */,
 				743BC8812A13E6270068C0AA /* AppetizerListView.swift in Sources */,
 				743BC8852A13E6450068C0AA /* OrderView.swift in Sources */,
 			);
