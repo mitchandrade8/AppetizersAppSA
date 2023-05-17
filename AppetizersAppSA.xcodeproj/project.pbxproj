@@ -75,20 +75,11 @@
 		743BC8712A13E4EA0068C0AA /* AppetizersAppSA */ = {
 			isa = PBXGroup;
 			children = (
+				743BC8A02A143AEB0068C0AA /* Model */,
+				743BC89C2A143A9F0068C0AA /* Utilities */,
+				743BC8A12A143B1A0068C0AA /* Views */,
+				743BC8982A143A3D0068C0AA /* Screens */,
 				743BC8722A13E4EA0068C0AA /* AppetizersAppSAApp.swift */,
-				743BC8742A13E4EA0068C0AA /* AppetizerTabView.swift */,
-				743BC8802A13E6270068C0AA /* AppetizerListView.swift */,
-				743BC88E2A140EE80068C0AA /* AppetizerListViewModel.swift */,
-				743BC8882A1403FF0068C0AA /* AppetizerListCell.swift */,
-				743BC8822A13E6320068C0AA /* AccountView.swift */,
-				743BC8842A13E6450068C0AA /* OrderView.swift */,
-				743BC8862A13FDA40068C0AA /* Appetizer.swift */,
-				743BC88A2A14069C0068C0AA /* NetworkManager.swift */,
-				743BC88C2A1407B90068C0AA /* APError.swift */,
-				743BC8902A141C020068C0AA /* Alert.swift */,
-				743BC8922A1420E90068C0AA /* LoadingView.swift */,
-				743BC8942A14219C0068C0AA /* Color+Ext.swift */,
-				743BC8962A142A920068C0AA /* RemoteImage.swift */,
 				743BC8762A13E4EC0068C0AA /* Assets.xcassets */,
 				743BC8782A13E4EC0068C0AA /* Preview Content */,
 			);
@@ -101,6 +92,119 @@
 				743BC8792A13E4EC0068C0AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		743BC8982A143A3D0068C0AA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8742A13E4EA0068C0AA /* AppetizerTabView.swift */,
+				743BC8992A143A470068C0AA /* AppetizerListView */,
+				743BC89A2A143A6B0068C0AA /* AccountView */,
+				743BC89B2A143A740068C0AA /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		743BC8992A143A470068C0AA /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				743BC88E2A140EE80068C0AA /* AppetizerListViewModel.swift */,
+				743BC8802A13E6270068C0AA /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		743BC89A2A143A6B0068C0AA /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8822A13E6320068C0AA /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		743BC89B2A143A740068C0AA /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8842A13E6450068C0AA /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		743BC89C2A143A9F0068C0AA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				743BC89F2A143ACE0068C0AA /* Alert */,
+				743BC89E2A143AB10068C0AA /* Extensions */,
+				743BC89D2A143AAA0068C0AA /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		743BC89D2A143AAA0068C0AA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				743BC88A2A14069C0068C0AA /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		743BC89E2A143AB10068C0AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8942A14219C0068C0AA /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		743BC89F2A143ACE0068C0AA /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8902A141C020068C0AA /* Alert.swift */,
+				743BC88C2A1407B90068C0AA /* APError.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		743BC8A02A143AEB0068C0AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8862A13FDA40068C0AA /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		743BC8A12A143B1A0068C0AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8A42A143B550068C0AA /* Image */,
+				743BC8A22A143B240068C0AA /* Cells */,
+				743BC8A32A143B2B0068C0AA /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		743BC8A22A143B240068C0AA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8882A1403FF0068C0AA /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		743BC8A32A143B2B0068C0AA /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8922A1420E90068C0AA /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		743BC8A42A143B550068C0AA /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				743BC8962A142A920068C0AA /* RemoteImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
