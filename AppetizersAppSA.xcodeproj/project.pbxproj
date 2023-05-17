@@ -26,6 +26,8 @@
 		743BC8A62A156E0C0068C0AA /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8A52A156E0C0068C0AA /* AppetizerDetailView.swift */; };
 		743BC8A92A157BBE0068C0AA /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8A82A157BBE0068C0AA /* APButton.swift */; };
 		743BC8AB2A157CC70068C0AA /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8AA2A157CC70068C0AA /* XDismissButton.swift */; };
+		743BC8AD2A1585BD0068C0AA /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8AC2A1585BD0068C0AA /* AccountViewModel.swift */; };
+		743BC8B32A1587C90068C0AA /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8B22A1587C90068C0AA /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		743BC8A52A156E0C0068C0AA /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		743BC8A82A157BBE0068C0AA /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		743BC8AA2A157CC70068C0AA /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		743BC8AC2A1585BD0068C0AA /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		743BC8B22A1587C90068C0AA /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Ext.swift"; path = "../../../../../../../Downloads/String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 		743BC89A2A143A6B0068C0AA /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				743BC8AC2A1585BD0068C0AA /* AccountViewModel.swift */,
 				743BC8822A13E6320068C0AA /* AccountView.swift */,
 			);
 			path = AccountView;
@@ -159,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				743BC8942A14219C0068C0AA /* Color+Ext.swift */,
+				743BC8B22A1587C90068C0AA /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 				743BC88D2A1407B90068C0AA /* APError.swift in Sources */,
 				743BC8AB2A157CC70068C0AA /* XDismissButton.swift in Sources */,
 				743BC8892A1403FF0068C0AA /* AppetizerListCell.swift in Sources */,
+				743BC8AD2A1585BD0068C0AA /* AccountViewModel.swift in Sources */,
 				743BC8832A13E6320068C0AA /* AccountView.swift in Sources */,
 				743BC8952A14219C0068C0AA /* Color+Ext.swift in Sources */,
 				743BC8752A13E4EA0068C0AA /* AppetizerTabView.swift in Sources */,
@@ -310,6 +317,7 @@
 				743BC88F2A140EE80068C0AA /* AppetizerListViewModel.swift in Sources */,
 				743BC8912A141C020068C0AA /* Alert.swift in Sources */,
 				743BC8812A13E6270068C0AA /* AppetizerListView.swift in Sources */,
+				743BC8B32A1587C90068C0AA /* String+Ext.swift in Sources */,
 				743BC8852A13E6450068C0AA /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
