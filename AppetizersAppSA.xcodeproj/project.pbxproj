@@ -28,6 +28,7 @@
 		743BC8AB2A157CC70068C0AA /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8AA2A157CC70068C0AA /* XDismissButton.swift */; };
 		743BC8AD2A1585BD0068C0AA /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8AC2A1585BD0068C0AA /* AccountViewModel.swift */; };
 		743BC8B32A1587C90068C0AA /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8B22A1587C90068C0AA /* String+Ext.swift */; };
+		743BC8B52A15F64D0068C0AA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8B42A15F64D0068C0AA /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		743BC8AA2A157CC70068C0AA /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		743BC8AC2A1585BD0068C0AA /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		743BC8B22A1587C90068C0AA /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Ext.swift"; path = "../../../../../../../Downloads/String+Ext.swift"; sourceTree = "<group>"; };
+		743BC8B42A15F64D0068C0AA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				743BC8862A13FDA40068C0AA /* Appetizer.swift */,
+				743BC8B42A15F64D0068C0AA /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				743BC8832A13E6320068C0AA /* AccountView.swift in Sources */,
 				743BC8952A14219C0068C0AA /* Color+Ext.swift in Sources */,
 				743BC8752A13E4EA0068C0AA /* AppetizerTabView.swift in Sources */,
+				743BC8B52A15F64D0068C0AA /* User.swift in Sources */,
 				743BC8A92A157BBE0068C0AA /* APButton.swift in Sources */,
 				743BC8932A1420E90068C0AA /* LoadingView.swift in Sources */,
 				743BC88B2A14069C0068C0AA /* NetworkManager.swift in Sources */,
