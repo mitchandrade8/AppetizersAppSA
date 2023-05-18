@@ -22,7 +22,7 @@ struct AppetizerListView: View {
                             viewModel.isShowingDetail = true
                         }
                 }
-                .listStyle(PlainListStyle())
+                .listStyle(.plain)
                 .navigationTitle("🍟 Appetizers")
                 .disabled(viewModel.isShowingDetail)
             }
