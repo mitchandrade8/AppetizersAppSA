@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		742FF7752A16011500644C7C /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742FF7742A16011500644C7C /* EmptyState.swift */; };
+		742FF7772A1604C100644C7C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742FF7762A1604C100644C7C /* Order.swift */; };
 		743BC8732A13E4EA0068C0AA /* AppetizersAppSAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8722A13E4EA0068C0AA /* AppetizersAppSAApp.swift */; };
 		743BC8752A13E4EA0068C0AA /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BC8742A13E4EA0068C0AA /* AppetizerTabView.swift */; };
 		743BC8772A13E4EC0068C0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743BC8762A13E4EC0068C0AA /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		742FF7742A16011500644C7C /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		742FF7762A1604C100644C7C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		743BC86F2A13E4EA0068C0AA /* AppetizersAppSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppetizersAppSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		743BC8722A13E4EA0068C0AA /* AppetizersAppSAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersAppSAApp.swift; sourceTree = "<group>"; };
 		743BC8742A13E4EA0068C0AA /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			children = (
 				743BC8862A13FDA40068C0AA /* Appetizer.swift */,
 				743BC8B42A15F64D0068C0AA /* User.swift */,
+				742FF7762A1604C100644C7C /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				743BC88D2A1407B90068C0AA /* APError.swift in Sources */,
 				743BC8AB2A157CC70068C0AA /* XDismissButton.swift in Sources */,
 				743BC8892A1403FF0068C0AA /* AppetizerListCell.swift in Sources */,
+				742FF7772A1604C100644C7C /* Order.swift in Sources */,
 				743BC8AD2A1585BD0068C0AA /* AccountViewModel.swift in Sources */,
 				743BC8832A13E6320068C0AA /* AccountView.swift in Sources */,
 				743BC8952A14219C0068C0AA /* Color+Ext.swift in Sources */,
