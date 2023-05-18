@@ -18,7 +18,7 @@ struct StandardButtonStyle: ViewModifier {
 }
 
 extension View {
-    func standardButtonStyle() -> View {
+    func standardButtonStyle() -> any View {
         self.modifier(StandardButtonStyle())
     }
 }
